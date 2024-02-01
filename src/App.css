@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+}
+h1,h2,h3,h4{
+  color: white;
+}
+body{
+  background-color: #212529;
+}
+#navbar{
+  background-color: #212529 !important;
+}
+#aldrin-btn-logo{
+  font-family: Megrim;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#basic-navbar-nav{
+  background-color: transparent;
+}
+#github-logo{
+  width: 30px;
+  filter: invert(100%);
+}
+#project-logo{
+  filter: brightness(0) invert(1);
+  width: 30px;
+}
+#nav-links{
+  margin-left: auto !important;
+  margin-right: unset !important;
+}
+#nav-links a{
+  color: #fff;
+  text-align: center;
+}
+.navbar-toggler{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-toggler-icon{
+  filter: invert(100%);
+}
+.navbar-toggler-icon:focus{
+  border-color: white;
+}
+#jam-img{
+  width: 300px;
+  border-radius: 60%;
+}
+#first-section-textbox{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#portfolio-img{
+  text-align: center;
+}

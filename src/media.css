@@ -1,0 +1,10 @@
+@media (max-width:768px) {
+    #nav-bar-body{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    #body-container{
+        flex-direction: column-reverse;
+        display: flex;
+    }
+}

@@ -1,0 +1,35 @@
+#aldrin-btn-logo{
+    -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+#aldrin-btn-logo:hover,
+#aldrin-btn-logo:focus,
+#aldrin-btn-logo:active {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+#github-btn{
+    -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+#github-btn:hover,
+#github-btn:focus,
+#github-btn:active {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+#project-btn{
+    -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+#project-btn:hover,
+#project-btn:focus,
+#project-btn:active {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
