@@ -1,14 +1,36 @@
 *{
   box-sizing: border-box;
 }
+:root{
+  --blue: rgb(121, 11, 231);
+}
+@font-face {
+  font-family: machineBT;
+  src: url(assets/font/MachineBT.ttf);
+}
 h1,h2,h3,h4{
   color: white;
+}
+p{
+  color: #d8d6d6;
+}
+h1{
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 3.5rem;
 }
 body{
   background-color: #212529;
 }
 #navbar{
   background-color: #212529 !important;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+#navbar.scrolled{
+  background-color: white;
+  transition: color 0.4s ease-in-out;
 }
 #aldrin-btn-logo{
   font-family: Megrim;
@@ -26,6 +48,9 @@ body{
 }
 #project-logo{
   filter: brightness(0) invert(1);
+  width: 30px;
+}
+#tech-stack-logo{
   width: 30px;
 }
 #nav-links{
@@ -48,14 +73,99 @@ body{
   border-color: white;
 }
 #jam-img{
-  width: 300px;
   border-radius: 60%;
+  box-shadow: -1px 10px 19px 2px rgba(0, 0, 0, 0.62);
+  -webkit-box-shadow: -1px 10px 19px 2px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: -1px 10px 19px 2px rgba(0, 0, 0, 0.62);
+  max-width: 70%;
 }
-#first-section-textbox{
+.first-hero{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+#first-hero-btn{
+  display: flex;
+  gap: 1rem;
+}
+#first-hero-btn button{
+  background-color: transparent;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+#first-hero-btn button:hover{
+  background-color: var(--blue);
+  border-color: transparent;
+}
+#first-hero-btn-2 button{
+  background-color: var(--blue);
+  border-radius: 10px;
+  border-color: transparent;
+}
+#first-hero-btn-2 button:hover{
+  border-color: var(--blue);
+  background-color: transparent;
+}
+#first-hero-textbox{
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 #portfolio-img{
   text-align: center;
+}
+#tuf-preview-img{
+  border-radius: 10px;
+  cursor: pointer;
+}
+#projects{
+  font-size: 50px;
+  margin-top: 2rem;
+}
+.second-hero{
+  display: flex;
+}
+#github-preview-logo{
+  width: 30px;
+  filter: invert(100%);
+}
+#live-demo-logo{
+  width: 30px;
+}
+#live-demo-btn{
+  gap: 2rem;
+}
+#live-demo-btn a{
+  text-decoration: none;
+  color: #fff;
+}
+#text-box h3{
+  font-family: machineBT;
+  font-size: 50px;
+}
+#dom{
+  justify-content: center;
+}
+#dom img{
+  width: 40px;
+  cursor: pointer;
+}
+#tuf-preview-col2{
+  align-items: center;
+  text-align: center;
+}
+#tuf-preview-col2 h3{
+  margin-bottom: 20px;
+}
+#tuf-preview-col2 p{
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+#live-demo-btn{
+  justify-content: center;
+}
+#fylo-section #body-container{
+  margin-top: 10rem;
 }

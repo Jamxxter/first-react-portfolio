@@ -1,4 +1,7 @@
 @media (max-width:768px) {
+    #navbar{
+        width: 90%;
+    }
     #nav-bar-body{
         margin-left: 2rem;
         margin-right: 2rem;
@@ -6,5 +9,18 @@
     #body-container{
         flex-direction: column-reverse;
         display: flex;
+    }
+    .first-hero{
+        height: auto;
+    }
+    #first-hero-textbox{
+        text-align: center;
+        margin-top: 40px;
+    }
+    #first-hero-btn{
+        justify-content: center;
+    }
+    #projects{
+        text-align: center;
     }
 }
